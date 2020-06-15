@@ -8,16 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jenna Fradin</title>
     <meta name="description" content="Personal website">
-    <meta name="keywords" content="neuroscience, behavior, cognition, personal, cv">
+    <meta name="keywords" content="neuroscience, behavior, cognition, psychophysics, personal, cv">
     <meta name="author" content="Jenna Fradin">
     
     <!-- Favicons
     ================================================== -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/icon.png">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon.png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
@@ -47,7 +47,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="background-color: rgb(23,23,23);"">
+  <body style="background-color:rgb(23,23,23);"">
 
     <!-- Off Canvas Navigation
     ================================================== -->
@@ -60,7 +60,8 @@
             <li><a href="#home" class="page-scroll">Home</a></li>
             <li><a href="#presentation" class="page-scroll">Presentation</a></li>
             <li><a href="#skills" class="page-scroll">Skills</a></li>
-            <li><a href="#project" class="page-scroll">Project</a></li>
+            <li><a href="#works" class="page-scroll">Projects</a></li>
+            <li><a hred="#gallery" class="page-scroll">Gallery</a></li>
           <!--<li><a href="#mentors" class="page-scroll">Mentors</a></li>-->
             <li><a href="#contact" class="page-scroll">Contact </a></li>
         </ul><!--- End Menu -->
@@ -101,6 +102,7 @@
                             <hr>
                         </div>
                         <p>Master student under the supervision of <a href="http://laurentperrinet.github.io"><u>Laurent Perrinet</u></a></p>    
+                        <p>We worked on one property of the primary visual cortex neurons: <i><a href="#project">the orientation selectivity</a></i></p>
                     </div>
                     <div class="col-md-1 col-sm-1">
                     </div>
@@ -144,17 +146,40 @@
                </div>              
                <div class="col-md-2 col-lg-2">
                    <div class="service">
-                      <span class="fa fa-laptop fa-3x"></span>
+                      <span class="fa fa-cogs fa-3x"></span>
+                      <h4>Neurosciences</h4>
+                      <hr>
+                      <li>Psychophysics, brain physiology (espacially visual cortex)</li>
+                      <p></p>
+                      <li>Notions: MRI, MEG, EEG </li>
                    </div>
                </div>
                <div class="col-md-2 col-lg-2">
                    <div class="service">
                       <span class="fa fa-language fa-x3"></span>
+                      <h4> Language</h4>
+                      <hr>
+                      <li><b>Advanced:</b>French, English</li>
+                      <p></p>
+                      <li><b>Intermediate :</b> German</li>
                    </div>
                </div>    
                <div class="col-md-2 col-lg-2">
                    <div class="service">
-                      <span class="fa fa-signal fa-3x"></span>
+                      <span class="fa fa-laptop fa-3x"></span>
+                      <h4> Programming</h4>
+                      <hr>
+                      <li>R, Python</li>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <div class="service">
+                        <span class="fa fa-heart fa-3x"></span>
+                        <h4>Others</h4>
+                        <hr>
+                        <li> Scuba-diving / free-diving</li>
+                        <li> Photography </li>
+                        <li> Hiking</li>
                     </div>
                 </div>
            </div>     
@@ -171,14 +196,71 @@
        </div>
    </div>    
    </div>
-
+   
    <!--project section-->
-   <div id="project">
+   <div id="works">
        <div class="container">
            <div class="row text-center">
                <div class="col-md-8 col-md-offset-2">
                    <div class="section-title">
-                       <h2>Project</h2>
+                       <h2>Projects</h2>
+                       <hr>
+                   </div>
+               </div>
+           </div>
+           <div class="space"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row text-center">
+                 <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                         <span class="fa fa-cogs fa-x3"></span>
+                        <h4>MSc Internship</h4>
+                        <h5> Psychophysic study on <font color=#690c05><b>Orientation selectivity</b></font></h5>
+                        <p> Under the supervision of <b>Laurent Perrinet</b>.
+                        <hr>
+                        <li><b>Objective</b>: Study the effect of parameters (spatial frequency, orientation bandwidth, bandwidth spatial frequency) on the acuity to discriminate orientation</li>
+                        <li><b>Methods:</b>: discriminative task using oriented texture called <a href="https://github.com/NeuralEnsemble/MotionClouds">MotionClouds </a></li>
+                        </p><hr><p> Checkout the Notebooks <a href="https://github.com/jennafradin/MSc-Internship"><span class="fa fa_github"></span></a></p>
+                    </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                   <div class="service">
+                       <span class="fa fa-area-chart fa-x3"></span>
+                       <h4>Msc Internship</h4>
+                       <h5> Fitting a psychometrics curve using pyTorch</h5>
+                       <p> done in collaboration with <a href="https://laurentperrinet.github.io/"> Lauren Perrinet</a>
+                       <li> <b>Methods</b>: In psychophysics, subject responses constitute binary data. The researcher goal is to find the distribution that fits the best to our binary data. However, fitting the curve can be a difficult task. Participant can make carelessness errors that can biased the shape of the psychometric curve
+                        To limit this bias, we did a preliminary study with synthetic data and define a fittting method using pyTorch </li>
+                       </p><hr><p> Checkout the <a href="https://github.com/jennafradin/MSc-Internship"> Notebook and <a href="https://laurentperrinet.github.io/sciblog/posts/2020-04-08-fitting-a-psychometric-curve-using-pytorch.html">Laurent Perrinet sciblog</a></p>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                   <div class="service">
+                       <span class="fa fa-laptop fa-3x"></span>
+                       <h4>Msc Internship</h4>
+                       <h5>Psychophysics study on Motion and number prediction</h5>
+                       <p> Under the supervision of <a href="http://tmbi.fr/robin-baures/">Robin Baures</a> and <a href="http://tmbi.fr/tushar-chauhan/"> Tushar Chauhan</a>
+                       <li><b>Objective </b>: Previous works suggested that  a common rate control module paces mental updating in both physical space and number-space. The main objective was to find if this common rate control exist  </li>
+                       <li><b> Methods</b>: We programmed differents psychophysics experiment (prediction task) </li>
+                       </p><hr><p> Checkout the <a href="https://github.com/jennafradin/M1_internship_Prediction_Motion"> Notebook and <a href="https://www.biorxiv.org/content/biorxiv/early/2020/03/10/2020.03.10.985424.full.pdf"> article </a></p>
+                   </div>
+               </div>
+          </div>
+      </div>
+      <div class="space"></div>
+      <div class="text-center">
+          <a href="#gallery" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
+      </div>
+   </div>  
+
+   <!--gallery section-->
+   <div id="gallery">
+       <div class="container">
+           <div class="row text-center">
+               <div class="col-md-8 col-md-offset-2">
+                   <div class="section-title">
+                       <h2>Gallery</h2>
                        <hr>
                    </div>    
                </div>
@@ -187,9 +269,10 @@
         </div>
         <div class="container-fluid">
             <div class="row ">
+                <!-- 0 / 0 -->
                 <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
-                        <div class="hover_bg">
+                        <div class="hover-bg">
                             <div class="hover-text">
                                 <h5>[ <font color="#ab4642"><b>Psychophysic</b></font> : Orientation discrimination task (2AFC) ]</h5>
                                 <p class="lead">MotionClouds</p>
@@ -200,12 +283,12 @@
                         </div>
                     </div>
                 </div>
-             
+                <!-- 0 / 1 -->
                 <div class="col-md-4 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <div class="hover-text">
-                                <h5> [ <font color="#ab4642"><b>Psychophysic</b></font>: Motion and number prediction ]</h5>
+                                <h5> [ <font color="#ab4642"><b>Psychophysics</b></font>: Motion and number prediction ]</h5>
                                 <p class="lead">time to contact<p>
                                 <div class="hline"></div>   
                                 <h1><a href="https://github.com/jennafradin/Prediction_Motion"><span class=" fa fa-github"></span></a></h1>
@@ -214,6 +297,7 @@
                         </div>
                     </div>
                </div>
+               <!-- 0 / 2 -->
                <div class="col-md-4 col-md-6 nopadding">
                    <div class="portfolio-item">
                        <div class="hover-bg">
@@ -259,7 +343,6 @@
                                 <hr>
                             </div>
                         </div>
-
                         <div class="col-md-4 col-sm-4">
                             <div class="team">
                                 <img src="img/team/04.jpg" class="img-responsive img-circle" alt="...">
@@ -269,7 +352,6 @@
                                 <hr>
                             </div>
                         </div>
-
                         <div class="col-md-4 col-sm-4">
                             <div class="team">
                                 <img src="img/team/03.jpg" class="img-responsive img-circle" alt="...">
@@ -279,10 +361,8 @@
                                 <hr>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
                 <div class="col-md-2 col-sm-2">
                     <div class="team hire">
                         <h4>We Are Hiring!</h4>
@@ -294,13 +374,11 @@
                     </div>
                 </div>
             </div>
-
             <div class="text-center">
                 <a href="#contact" class="page-scroll down-btn">
                     <span class="fa fa-angle-down"></span>
                 </a>
             </div>
-
         </div>
     </div> -->
 
@@ -319,11 +397,11 @@
                         <strong>Information</strong><br>
                         <br>
                         jennafradin@gmail.com<br>
-                        Phone: (123) 456-7890
+                        Phone: (+33) 6-12-53-35-23
                         <ul class="social">
                             <li><a href="https://github.com/jennafradin"><span class="fa fa-github"></span></a></li>
                             <li><a href="https://fr.linkedin.com/jenna-fradin"><span class="fa fa-linkedin"></span></a></li>
-                    <!--<li><a href="#"><span class="fa fa-dribbble"></span></a></li>-->
+                         <!--<li><a href="#"><span class="fa fa-dribbble"></span></a></li>-->
                           </ul>
                    <!-- </address> -->
                 </div>
@@ -371,7 +449,7 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["Neurosciences^1000", "Behavior^1000" ,"Cognition^1000"],
+            strings: ["Neurosciences^1000", "Behavior^1000" ,"Cognition^1000", "psychophysics^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100
