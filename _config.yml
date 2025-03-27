@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Jenna FRADIN / Academic website"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "jennafradin/jennafradin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/me.png"
+  avatar           : "me.png"
   name             : "Jenna Fradin"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at Sorbonne Université"
