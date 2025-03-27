@@ -15,6 +15,8 @@ I am always pleased to discuss about my research and more. Feel free to connect 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fradin@isir.upmc.fr)
 
 
-## Where i am ?
+Where i am ? 
+
+======
 
 ![map](images/position.png)
