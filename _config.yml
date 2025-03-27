@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Jenna FRADIN / Academic website"
+title                    : "My academic website"
 title_separator          : "-"
 name                     : &name "Jenna Fradin"
 description              : &description "PhD student"
@@ -25,7 +25,7 @@ author:
   avatar           : "me.png"
   name             : "Jenna Fradin"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student at Sorbonne Université"
+  bio              : "PhD student"
   location         : "Paris, France"
   employer         : "ISIR"
   uri              : # URL
