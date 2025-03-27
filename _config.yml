@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Jenna FRADIN / Academic website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Jenna Fradin"
+description              : &description "PhD student"
 url                      : https://jennafradin.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jennafradin/jennafradin.github.io"
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/jenna-fradin-686845189/"
+  linkedin         : "jenna-fradin-686845189"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -103,7 +103,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages" #previously "gh_pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
