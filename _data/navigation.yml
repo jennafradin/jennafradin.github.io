@@ -28,6 +28,9 @@ main:
         
   #- title: "Blog Posts"
   #  url: /year-archive/
+
+  - title: "Workshop"
+    url: /workshop/
     
   #- title: "CV"
   #  url: /cv/
