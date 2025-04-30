@@ -227,7 +227,7 @@ collections:
     permalink: /:collection/:path/
   workshop:
     output: true
-    permalink: /collection/:path
+    permalink: /workshops/:title/
 
 
 # These settings control how pages and collections are included in the site
