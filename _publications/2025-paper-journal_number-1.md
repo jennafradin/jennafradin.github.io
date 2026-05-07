@@ -7,7 +7,7 @@ excerpt: 'This review explores interactions in which touch is extremely accurate
 date: 2025-07-21
 venue: 'Surface Topography'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://hal.science/hal-05485364v1/document'
+paperurl: 'https://jennafradin.github.io/files/paper2.pdf'
 citation: 'Jenna Fradin et al 2025 Surf. Topogr.: Metrol. Prop. 13 033001'
 ---
 
