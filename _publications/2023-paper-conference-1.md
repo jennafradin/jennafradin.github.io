@@ -1,7 +1,7 @@
 ---
 title: "Humans Struggle To Perceive Congruence in Visuo-Haptic Textures"
 collection: publications
-category: conferences
+category: conference
 permalink: /publication/2023-paper-conference-1
 excerpt: 'This study investigate the human accuracy to detect visuo-haptic discrepancy within common fabrics. Participants had to detect the congruent one among two pairs of visuo-haptic textures consisting in a visual texture projected on a semi-mirror and a real texture underneath the visual one, which could be touched but not seen. Overall, participants did not accurately detect congruent visuo-haptic pairs and their performance correlated with the average similarity between the visual and tactile textures'
 date: 2023-06-10
