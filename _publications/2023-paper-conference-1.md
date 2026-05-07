@@ -7,6 +7,6 @@ excerpt: 'This study investigate the human accuracy to detect visuo-haptic discr
 date: 2023-06-10
 venue: 'IEEE WordHaptics'
 paperurl: 'https://jennafradin.github.io/files/paper1.pdf'
-citation: 'J. Fradin, S. Haliyo and D. Gueorguiev, "Humans Struggle to Perceive Congruence in Visuo-Haptic Textures," 2023 IEEE World Haptics Conference (WHC), Delft, Netherlands, 2023, pp. 128-133, doi: 10.1109/WHC56415.2023.10224382.'
+#citation: 'J. Fradin, S. Haliyo and D. Gueorguiev, "Humans Struggle to Perceive Congruence in Visuo-Haptic Textures," 2023 IEEE World Haptics Conference (WHC), Delft, Netherlands, 2023, pp. 128-133, doi: 10.1109/WHC56415.2023.10224382.'
 ---
 
