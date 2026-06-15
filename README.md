@@ -1,14 +1,11 @@
 
-# Academic Website
+# Academic Website  :memo: 
 
 This repository contains the source code for my personal academic website.
 
-The website presents my research activities, publications, projects, and contact information.
-
-
 ## About
 
-I am a PhD student at the Institut des Systèmes Intelligents et de Robotique (ISIR), Sorbonne Université. My research focuses on multisensory perception, with a particular interest in visuo-haptic interactions.
+I am a PhD student at the Institut des Systèmes Intelligents et de Robotique (ISIR), Sorbonne Université. My research focuses on multisensory perception, with a particular interest in visuo-haptic interactions :eyes::hand:.
 
 ## Repository structure
 
