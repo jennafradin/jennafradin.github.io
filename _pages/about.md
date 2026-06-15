@@ -11,7 +11,7 @@ Welcome ! i am a PhD student at the [Institut des Systèmes Intelligents et de R
 
 I investigate how vision and touch interact to shape our perception of the world around us. Although these sensory modalities constantly work together in everyday life, many aspects of their interaction remain poorly understood.
 
-I am always happy to discuss about my research and more. Feel free to connect with me. 
+I am always happy to discuss about my research and more. Feel free to get in touch. 
 
 
 <!-- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jenna-fradin-686845189/)
